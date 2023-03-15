@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import disclaimer from './resources/disclaimer.mp3';
-import profile from './resources/profile.jpg';
+import profile from './resources/profile.webp';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'font-awesome/css/font-awesome.css'
 import './App.css';

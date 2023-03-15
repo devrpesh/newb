@@ -1,11 +1,11 @@
 @font-face {
   font-family: gsans-medium;
-  src: url(./fonts/GoogleSans-Medium.ttf);
+  src: url(./fonts/GoogleSans-Medium.woff2);
 }
 
 @font-face {
   font-family: gsans-regular;
-  src: url(./fonts/GoogleSans-Regular.ttf);
+  src: url(./fonts/GoogleSans-Regular.woff2);
 }
 
 h1, h2, h3, h4, h5, h6 {
