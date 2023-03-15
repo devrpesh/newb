@@ -11,9 +11,9 @@ class App extends Component {
       <div id="main" >
         <div id="container-1">
           <img id="profile" className='img-fluid' alt="Profile" src={profile}></img>
-          <h1>NEWB</h1>
+          <h2>NEWB</h2>
           <p>Gaming Content Creator, Gaali Artist</p>
-          <button onClick={this.playDisclaimer} className='btn btn-danger' style={{ marginBottom: "1rem" }}>Disclaimer</button>
+          <button onClick={this.playDisclaimer} className='btn btn-danger shadow' style={{ marginBottom: "1rem", paddingRight: "2rem", paddingLeft: "2rem" }}>Disclaimer</button>
           <div id="container-2">
             <a href='https://www.facebook.com/fakenewb' target='_blank' rel='noreferrer'>
               <i className='fa fa-facebook fa-lg' />

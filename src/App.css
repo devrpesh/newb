@@ -1,3 +1,26 @@
+@font-face {
+  font-family: gsans-medium;
+  src: url(./fonts/GoogleSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: gsans-regular;
+  src: url(./fonts/GoogleSans-Regular.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: gsans-medium;
+  font-weight: 100;
+}
+
+p {
+  font-family: gsans-regular;
+}
+
+button {
+  font-family: gsans-medium;
+}
+
 #main {
   position: absolute;
   top: 0px;
@@ -35,6 +58,7 @@ i {
 #profile {
   width: 15rem;
   height: auto;
+  margin-top: 1rem;
   margin-bottom: 0.7rem;
   box-shadow: 0 0 98px 6px rgba(201, 86, 168, 0.35);
   border-radius: 50%;
