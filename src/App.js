@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import disclaimer from './resources/disclaimer.mp3';
-import profile from './resources/profile.webp';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'font-awesome/css/font-awesome.css'
 import './App.css';
@@ -10,7 +9,7 @@ class App extends Component {
     return (
       <div id="main" >
         <div id="container-1">
-          <img id="profile" className='img-fluid' alt="Profile" src={profile}></img>
+          <img id="profile" className='img-fluid' alt="Profile" src="https://thumbs2.imgbox.com/78/b6/A3Y8zuYd_t.jpg"></img>
           <h1>NEWB</h1>
           <p>Gaming Content Creator, Gaali Artist</p>
           <button onClick={this.playDisclaimer} className='btn btn-danger shadow' style={{ marginBottom: "1rem", paddingRight: "2rem", paddingLeft: "2rem", fontFamily: "gsans-medium" }}>Disclaimer</button>
