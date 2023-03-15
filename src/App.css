@@ -17,10 +17,6 @@ p {
   font-family: gsans-regular;
 }
 
-button {
-  font-family: gsans-medium;
-}
-
 #main {
   position: absolute;
   top: 0px;
