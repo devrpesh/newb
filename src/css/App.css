@@ -1,0 +1,74 @@
+@font-face {
+    font-family: gsans-medium;
+    src: url(../fonts/GoogleSans-Medium.woff2);
+}
+
+@font-face {
+    font-family: gsans-regular;
+    src: url(../fonts/GoogleSans-Regular.woff2);
+}
+
+h1 {
+    font-family: gsans-medium;
+    font-weight: 300;
+}
+
+p {
+    font-family: gsans-regular;
+    font-weight: 150;
+}
+
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(139deg, #a7527b, #c26191, #e02aff);
+}
+
+#container-1 {
+    background-color: #f5f5f5;
+    padding: 1rem 10%;
+    margin-top: 2rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile {
+    width: 15rem;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 98px 6px rgba(201, 86, 168, 0.35);
+    border-radius: 50%;
+}
+
+#disclaimer {
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-family: gsans-medium;
+}
+
+#social-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#social-container i {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#social-container a:link,
+#social-container a:visited {
+    color: #5a5a5a;
+}
+
+#social-container a:hover {
+    color: #1a1a1a;
+}
